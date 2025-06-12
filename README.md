@@ -8,6 +8,13 @@ This resource provides the R code to reproduce key results described in Clements
 4. ./R_SUPFIG2 contains code for reproducing supplementary figure 2.
 5. Please modify the path in the R code where there is needed.
 
+## A quick demo
+For example, executing `~/Axonal-Injury/R_Figure2/Fig_2b.R` will reproduce Figure 2b from the paper.
+
+
+## Expected output and runtime
+The output are reproduced figures from main figure 2 and supplementary figure 2. Expected runtime is less than 15 minutes for each figure.
+
 
 ## Session information
 
