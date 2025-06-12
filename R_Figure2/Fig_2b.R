@@ -1,6 +1,11 @@
-load('~/RData/PSEDUOBULK_MYELINHIGH.RData')
-load('~/RData/MYELIN_PDX_LATE.RData')
-load('~/RData/MYELIN_PDX_EARLY.RData')
+load('/home/clustor2/ma/w/wt215/Axonal-Injury/RData/PSEDUOBULK_MYELINHIGH.RData')
+load('/home/clustor2/ma/w/wt215/Axonal-Injury/RData/MYELIN_PDX_LATE.RData')
+load('/home/clustor2/ma/w/wt215/Axonal-Injury/RData/MYELIN_PDX_EARLY.RData')
+
+
+table(DE_NSG$type)
+table(DE_PDX_E$type)
+table(DE_PDX$type)
 
 #all genes
 allgenes<-Reduce(intersect,list(
