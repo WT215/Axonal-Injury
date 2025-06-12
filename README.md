@@ -173,3 +173,6 @@ loaded via a namespace (and not attached):
 [145] rlang_1.1.5               spatstat.sparse_3.1-0    
 [147] spatstat.explore_3.3-4    Cairo_1.6-2   
 ```
+
+## Approximate installation time of the above R packages
+The installation time of the above R packages may take around 3-5 hours.
